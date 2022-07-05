@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,100;1,200;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,500;1,400;1,500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'poppins',sans-serif;
+    
+}
+/*PAGINA HOME*/
+.container-home{
+    margin-block-start: 20px;
+    margin-block-end: 90px;
+}
+.inner-home img{
+    font-size: 30px;
+}
+h5{
+    color:rgba(8, 69, 110, 0.333);;
+}
+/********************************/
+.menu{
+    background: rgba(24, 153, 240, 0.333);
+    padding: 15px;
+    margin-left: 112px;
+    margin-right: 112px;
+    
+}
+.menu ul{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 8px;
+    box-shadow: 20px;
+}
+.menu a:hover{
+    color: crimson;
+}
+.menu a{
+    
+    text-decoration: none;
+}
+.container{
+    margin:103px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+
+.card shadow{
+    width: 20rem;
+    
+}
+.card-body{
+    text-align: center;
+    
+}
+.card-text{
+    text-align: justify;
+}
+.card-title{
+    font-size: 1.5em;
+    color: crimson;
+}
+p{
+    font-size: 13px;
+}
+.btn{
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    letter-spacing: 4px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/*SECAO PAGINA LEIA*/
+.texto-h1{
+    margin-top: 20px;
+}
+.voltar-link {
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    background-color: #dc143c;
+    border-radius: 3px;
+    
+}
+.texto-h1{
+    color: #ccc;
+    text-align: center;
+    font-size: 2.5em;
+}
+.container-leia{
+    margin-block-start: 25px;
+    margin-block-end: 5px;
+}
+
+/*SECAO CONTATO*/
+.container-contato{
+    margin-block-start: 20px;
+    height: 100%;
+}
+
+.icons{
+    top: 50%;
+    transform: translateY(100%);
+    width: 100%;
+    text-align: center;
+    
+}
+.btn-icons{
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn-icons i{
+    line-height: 90px;
+    font-size: 35px;
+    transition: 0.2s linear;
+}
+.btn-icons:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btn-icons::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+   
+}
+.btn-icons:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+
+.contacts{
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(700%);
+}
+
+/*FOOTER*/
+footer{
+    background: crimson;
+    padding: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-block-start: 23%; 
+}
+footer span{
+    color:#111;
+}
